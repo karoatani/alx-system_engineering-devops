@@ -1,0 +1,3 @@
+#!/bin/bash
+DIV=$(( $POWER  + $DIVIDE ))
+echo "$DIV\n"
