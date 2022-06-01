@@ -1,2 +1,2 @@
 #!/bin/bash
-find . -type f -name "*.gif"| rev| cut --delimiter='.' -f2|cut --delimiter='/' -f1|rev|LC_ALL=C sort
+find . -type f -name "*.gif"| rev| cut --delimiter='.' -f2|cut --delimiter='/' -f1|rev|LC_ALL=C sort -f
